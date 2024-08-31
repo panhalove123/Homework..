@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: teal;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+     align-items: center;
+}
+li {
+    margin-left: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+  
+li:hover{
+    background-color: blue;
+    height: 6vh;
+    width: 80px;
+}
+.body{
+    width: 100%;
+    background-color: aqua;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: 150px;
+    font-family: sans-serif;
+}
+.body_card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.card{
+    border: solid 3px ;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+img{
+    height:70 vh;
+    width: 100%;
+}
+.header a:hover {
+    color: #007bff;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+   
+}
+th, td {
+    padding: 25px;
+    border: 1px solid #ddd;
+    text-align: left;
+    
+    
+   
+}
+td{
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+th:nth-child(1), td:nth-child(1) {
+    background-color: #6ea5e4; 
+}
+
+th:nth-child(2), td:nth-child(2) {
+    background-color: #4785d6; 
+}
+
+th:nth-child(3), td:nth-child(3) {
+    background-color: #441ee9;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    background-color: #2b1ac5; 
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.main-content {
+    flex: 2;
+    background-color: #ffffff;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.box {
+    
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     padding: 14%;
+}
+.text{
+    padding: 10px;
+    width: 60%;
+
+}
+ 
